@@ -1,0 +1,75 @@
+.container{
+    background-image: url('https://www.kiet.edu/uploads/banner_image/65034793.jpg'); 
+    background-size:cover;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+/* LeavePage.css */
+
+.page-container {
+    min-height: 50vh;
+    display: flex;
+    position: absolute;
+    right:50px;
+    align-items: center;
+    justify-content: center;
+ /* Slate-200 color */
+    padding: 16px;
+  }
+  
+  .img-top-heading{
+    position: relative;
+    top: -267px;
+  }
+  .marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #2b6cb0; /* Blue color */
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .marquee-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  /* about section  */
+
+  .about{
+    width: 340px;
+    height:530px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1B4F9B;
+    padding: 5px;
+    position: relative;
+    top: 28px;
+
+  }
+  .about h1{
+    font-size: 30px;
+    font-weight: bold; 
+  }
+  

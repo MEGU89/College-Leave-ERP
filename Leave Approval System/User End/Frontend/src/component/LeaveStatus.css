@@ -1,0 +1,63 @@
+/* StudentLeaveStatus.css */
+
+.student-leave-status-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .student-id {
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .leave-table th,
+  .leave-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .leave-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .leave-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .leave-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Status-specific styling */
+  .status-approved td {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-pending td {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-rejected td {
+    color: red;
+    font-weight: bold;
+  }
+  
